@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/mn-portfolio/static/css/main.bf538fe7.css",
-    "main.js": "/mn-portfolio/static/js/main.75756d7e.js",
-    "static/media/HeroImage.jpg": "/mn-portfolio/static/media/HeroImage.60dae45a955ab1d3ed43.jpg",
-    "index.html": "/mn-portfolio/index.html",
-    "main.bf538fe7.css.map": "/mn-portfolio/static/css/main.bf538fe7.css.map",
-    "main.75756d7e.js.map": "/mn-portfolio/static/js/main.75756d7e.js.map"
+    "main.css": "/madinguyen9.github.io/mn-portfolio/static/css/main.bf538fe7.css",
+    "main.js": "/madinguyen9.github.io/mn-portfolio/static/js/main.6bbaa576.js",
+    "static/media/HeroImage.jpg": "/madinguyen9.github.io/mn-portfolio/static/media/HeroImage.60dae45a955ab1d3ed43.jpg",
+    "index.html": "/madinguyen9.github.io/mn-portfolio/index.html",
+    "main.bf538fe7.css.map": "/madinguyen9.github.io/mn-portfolio/static/css/main.bf538fe7.css.map",
+    "main.6bbaa576.js.map": "/madinguyen9.github.io/mn-portfolio/static/js/main.6bbaa576.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.75756d7e.js"
+    "static/js/main.6bbaa576.js"
   ]
 }
