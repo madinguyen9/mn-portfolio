@@ -3,7 +3,24 @@ import {Link as LinkR} from 'react-router-dom';
 import styled, { useTheme } from 'styled-components';
 import {DiCssdeck} from 'react-icons/di';
 import { FaBars } from 'react-icons/fa';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { Bio } from '../../data/constant';
 
+const SocialMediaIcons = styled.div`
+  display: flex;
+  margin-top: 1rem;
+`;
+
+const SocialMediaIcon = styled.a`
+  display: inline-block;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  color: ${({ theme }) => theme.text_primary};
+  transition: color 0.2s ease-in-out;
+  &:hover {
+    color: ${({ theme }) => theme.primary};
+  }
+`;
 
 const Nav = styled.nav`
     background-color: ${({theme}) => theme.card_light};
@@ -196,9 +213,13 @@ const Navbar = () => {
                 <NavLink href="#education">Education</NavLink>
 
             </NavItems>
+            <SocialMediaIcons>
+                        <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
+            </SocialMediaIcons>
             <ButtonContainer>
                 <GitHubButton>Github Profile</GitHubButton>
             </ButtonContainer>
+            
             {
                 isOpen &&
                 <MobileMenu isOpen={isOpen}>
@@ -217,7 +238,10 @@ const Navbar = () => {
                     <MobileLink href='#education' onClick={() => {
                     setIsOpen(!isOpen)
                     }}>Education</MobileLink>
+                   
                     <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href="/" target="_blank">Github Profile</GitHubButton>
+                   
+                    
                 </MobileMenu>
         }
         </NavContainer>

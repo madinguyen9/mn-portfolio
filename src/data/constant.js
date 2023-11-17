@@ -1,3 +1,5 @@
+
+
 export const Bio = {
   name: "Madison Nguyen",
   roles: [
@@ -8,11 +10,12 @@ export const Bio = {
     "Front-end Engineer",
   ],
   description:
-    "My commitment to leveraging technology for social good is at the core of my professional ethos. I am motivated by a passion for continuous learning, dedicated to delivering high-quality results, and always eager to embrace new challenges. Possessing a positive attitude and a growth mindset, I am poised to make a meaningful contribution and achieve great things in my chosen field",
+    "As a leader, I prioritize user-centered design and accessibility, using design and coding for positive impact. I am dedicated to fostering diversity and inclusivity, creating solutions that resonate with a broad range of perspectives. My goal is to contribute to a future where technology serves as a force for positive change, making a lasting impact on individuals and communities.",
   github: "https://github.com/madinguyen9",
   resume:
     "https://drive.google.com/file/d/1vOHW_1WxhWHUN0BBWZei2F7HGb_cgsZZ/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/madinguyen/",
+  email: "mailto:mnguyen9@scu.edu",
 };
 
 export const skills = [
@@ -232,11 +235,11 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/C560BAQE4UC9Z_k3c7A/company-logo_200_200/0/1579422507409?e=1692230400&v=beta&t=HJssPsrwwkAJAsvFiVIYPdM8GzUuuSK5YlATKgLx3Bc",
+    img: "https://www.scu.edu/media/offices/umc/scu-brand-guidelines/visual-identity-amp-photography/visual-identity-toolkit/logos-amp-seals/Mission-White.png",
     school: "Santa Clara University - School of Engineering",
-    date: "Oct 2021 - Sep 2025",
-    grade: "8.71 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+    date: "Sep 2021 - Present",
+    grade: "3.8 GPA",
+    desc: "I am currently pursuing a Bachelor's degree in Web Design and Engineering at Santa Clara University, CA. I have taken courses in Abstract Data Types & Structures , Algorithms, Object-Oriented Programming, Web Development, Engineering, and Computer Networks, among others. I am also in leadership positions for the Association of Computing Machinery - Women's Chapter and the Society of Women Engineers. My graduation date will be June 2025 and I am currently a Junior. ",
     degree: "Bachelor of Engineering - Web Design & Engineering, Graphic Design",
   },
 ];
@@ -245,140 +248,108 @@ export const projects = [
   {
     id: 9,
     title: "Friend-ily",
-    date: "Jun 2023 - Jul 2023",
+    date: "2023, Summer",
     description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials: #Email: testemployee@gmail.com  #Password- 123@Testemployee",
+      "Friend-ily is a mobile app developed using Flutter/Dart, dedicated to enhancing social connections in a meaningful and personalized way. The project was led from concept to realization and employed Firebase for secure user authentication and efficient data management. AI, specifically the ChatGPT API, was integrated to offer personalized gift and event suggestions based on user preferences. The app's design and development were executed meticulously, harnessing Figma's advanced prototyping features to create a unique and engaging social connection platform.",
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "https://raw.githubusercontent.com/madinguyen9/23_summer_challenge/b19d54e5e06cdecf3b706e6c298ca67feed1b46d/Friendily.png",
     tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
+      "Flutter",
+      "Dart",
+      "Firebase",
+      "APIs",
+      "Figma",
+      "Wireframing",
+      "Project Management",
+
     ],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify.duckdns.org",
+    category: "mobile app",
+    github: "https://github.com/madinguyen9/23_summer_challenge",
+    webapp: "https://vimeo.com/872010697?share=copy",
   },
   {
     id: 0,
     title: "Speks",
-    date: "Apr 2023 - May 2023",
+    date: "2023, Winter",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+      "During a demanding 24-hour hackathon, a team of six created Spek, utilizing C#, Firebase, Unity, and JavaScript to tackle the issue of underdiagnosed autism in women and girls. Our innovative work earned us the top prize by pioneering enhanced screening tools, including a specialized autism diagnostic test for women, and an engaging video game to support young girls in their diagnostic journey.  Our mission revolves around accessible education and funding research to improve autism diagnosis, ultimately improving the lives of those affected.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+      "https://raw.githubusercontent.com/madinguyen9/mn-portfolio/844383ef058f7cc77fa30eb1e4d48e56e8f21421/SPEKS.png",
+    tags: ["Javascript", "HTML", "CSS", "C#", "Unity", "Firebase", "Project Management"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
+    github: "https://github.com/eerinah/H4H23",
+    webapp: "https://devpost.com/software/h4h-bprsfz",
   },
   {
     id: 1,
-    title: "Roots",
-    date: "Oct 2022 - Present",
+    title: "Roots | Plan(t) your routes",
+    date: "2023, Fall",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+      "Roots is a web application that streamlines the home-searching process by combining advanced technologies like the Infinity Property Data API and INRIX Drive Time Polygons API. Users can specify key locations, and the app generates interactive maps with color-coded polygons, indicating optimal and acceptable commute zones. The Infinity Property Data API provides real-time information on available houses and prices within these zones. ",
     image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+      "https://raw.githubusercontent.com/madinguyen9/mn-portfolio/844383ef058f7cc77fa30eb1e4d48e56e8f21421/Roots.png",
     tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
+      "UI Design",
+      "Node JS",
+      "Express JS",
+      "Javascript",
+      "INRIX Dive Time Polygon API",
+      "Google Maps API",
+      "Datafiniti Property API",
+      "Figma",
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
+    github: "https://github.com/drobotcamo/inrix-hack-2023",
+    webapp: "https://devpost.com/software/roots-q67mcu",
   },
   {
     id: 2,
     title: "SCU Alumni Association Webpages",
-    date: "Jan 2023 - Mar 2023",
+    date: "2022 - Present",
     description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
+      "A  user-friendly and information-rich platform resulting from a comprehensive overhaul of the SCU Alumni Association's digital presence. Through skillful optimization of HTML/CSS, the websites are now visually appealing and responsive. Leveraging the power of the TerminalFour content management system allows for effortless content updates, and the seamless integration of mockups and Figma designs fosters an engaging and cohesive user experience. With an extensive array of over 50 pages brimming with compelling content, these web pages strictly adhere to design standards, web best practices, retention policies, and SEO objectives. They stand as an accessible and invaluable resource for the vibrant SCU alumni community, marking a successful digital transformation.",
     image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "https://brain-tumor.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
+      "https://raw.githubusercontent.com/madinguyen9/mn-portfolio/844383ef058f7cc77fa30eb1e4d48e56e8f21421/Alumni.png",
+    tags: ["Management", "Web Development", "Web Design", "SEO Objective", "User Empathy", "Wireframes"],
+    category: "web app",
+    webapp: "https://www.scu.edu/alumni/events/gradbash/",
   },
   {
     id: 3,
     title: "OLAB BioScience Homepage and DNA Translator",
-    date: "Dec 2021 - Apr 2022",
+    date: "2023, Summer",
     description:
-      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
+      "A user-friendly and intuitive web platform aimed at serving bioscientists at CJ BIO Korea. This platform served as a centralized research hub, tailored to meet various needs, including genetic code translation. It integrated JavaScript for meticulous debugging, Vue.js to enhance website responsiveness, and Bootstrap to ensure a consistent and visually pleasing design that functioned seamlessly across different devices and screen sizes. This product was designed to streamline and improve the research and work processes for bioscientists, enhancing their overall productivity and experience along with increasing accessibility. ",
     image:
-      "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
+      "https://raw.githubusercontent.com/madinguyen9/mn-portfolio/844383ef058f7cc77fa30eb1e4d48e56e8f21421/OLAB.png",
     tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Buckoid-Android-App",
-    webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+    category: "web app",
+    webapp: "https://olabbio.com/",
   },
   {
     id: 10,
     title: "S.E.P.S.",
-    date: "Jun 2023 - Jul 2023",
+    date: "2022, Winter Quarter",
     description:
-      "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
+      "Created by two partners, the Sterile Syringe Exchange Programs (SEP’s) website reduces stigma for injection drug users and promotes HIV prevention. In a competition against 150+ other students in a 24-hour hackathon, it won Wolfram Sponsored Fifth Place and Xilinx Sponsored Best Hack by Women-In-Tech.",
     image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
+      "https://raw.githubusercontent.com/madinguyen9/mn-portfolio/844383ef058f7cc77fa30eb1e4d48e56e8f21421/SEPS.png",
     tags: ["React Native", "JavaScript", "Axios"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Job-finder-App",
-    webapp: "https://github.com/rishavchanda/Job-finder-App",
+    category: "web app",
+    github: "https://github.com/beatricehackman/S.E.P.-s",
+    webapp: "https://devpost.com/software/s-e-p-s",
   },
   {
     id: 4,
     title: "Almaden Neighborhood Church Website",
-    date: "Jul 2021",
+    date: "2022, Fall",
     description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
+      "The website was the church's technology appeal to resonate with a more modern audience. The design incorporated contemporary elements to achieve this, ensuring the website felt relevant and appealing to young adults. Simultaneously, the strategy paid careful attention to accessibility, providing user-friendly features that catered to elderly members. By offering an inclusive and engaging user experience, the website served as a hub that bridged generational gaps within the church community. This thoughtful design approach resulted in a successful website launch, doubling the effectiveness of word-of-mouth marketing, increasing page views, and significantly improving the overall user experience for all members, regardless of age.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
+      "https://raw.githubusercontent.com/madinguyen9/mn-portfolio/844383ef058f7cc77fa30eb1e4d48e56e8f21421/ANC.png",
     tags: ["React Js", "Firebase", "Firestore", "Node JS"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-    webapp: "https://whatsapp-clone-rishav.web.app",
+    webapp: "https://almadenchurch.org/",
   },
 
 ];
