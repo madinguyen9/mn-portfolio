@@ -3,6 +3,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "build": "react-scripts build && cp build/index.html build/404.html",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.0",
@@ -53,4 +54,6 @@
   "devDependencies": {
     "gh-pages": "^6.0.0"
   }
+
+  
 }
